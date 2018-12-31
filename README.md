@@ -3,12 +3,12 @@ Change Data Capture (CDC)
 
 ## Introduction
 <ol type="1">
-<li></li>
-</ol>
 
-<ul>
-<li></li>
-</ul>
+<li>Starting with <a href="https://releasenotes.docs.salesforce.com/en-us/winter19/release-notes/rn_data_change_events.htm" target="_blank" alt="Winter '19 (API version 44.0) release">Winter '19 (API version 44.0) release</a>, Change Data Capture (CDC) was Developer Preview "or" Pilot feature.</li>
+
+<li>Starting with <a href="https://releasenotes.docs.salesforce.com/en-us/spring19/release-notes/rn_data_change_events.htm" target="_blank" alt="Spring '19 (API version 45.0) release">Spring '19 (API version 45.0) release</a>, Change Data Capture (CDC) is Generally Available (GA).</li>
+
+</ol>
 
 ## Useful Resources
 <ul>
@@ -32,3 +32,14 @@ Change Data Capture (CDC)
 <li><a href="https://mohan-chinnappan-n.github.io/sfdc/cdc.html#/home" target="_blank" alt="GitHub: Salesforce Change Data Capture">GitHub: Salesforce Change Data Capture</a></li>
 
 </ul>
+
+<ol type="1">
+<li></li>
+</ol>
+
+<ul>
+<li></li>
+</ul>
+
+Reference from the <a href="" target="_blank" alt="TEST">TEST</a>.
+<img src="supportedimages/TEST.png"/>
