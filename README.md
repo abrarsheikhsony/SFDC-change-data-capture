@@ -113,7 +113,7 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 ## Example: Subscribe to an Event Channel
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
-<li>Subscribe to Channel: /data/Employee__ChangeEvent</li>
+<li>Subscribe to Channel: <b>/data/Employee__ChangeEvent</b></li>
 <li></li>
 <li></li>
 <li></li>
