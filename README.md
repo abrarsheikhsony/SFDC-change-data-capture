@@ -324,8 +324,16 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 
 ## 3.3 - Change Event Trigger Considerations
 <ul>
-<li>You can't test Apex change event triggers using Apex tests.</li>
-<li>You also can't package change event triggers.</li>
+<li>You can't test Apex change event triggers using <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Apex tests">Apex tests</a>.</li>
+<li>You also can't <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="package">package</a> change event triggers.</li>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Formula fields">Formula fields </a> aren't included in change events.</li>
+</ul>
+
+## 3.4 - Gap and Overflow Events
+<ul>
+
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
+
 </ul>
 
 ## Transaction-based Replication Approach
@@ -334,7 +342,6 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>To maintain an accurate replica of your org’s data in another system, subscribe using a <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_replication_steps.htm" target="_blank" alt="transaction-based approach">transaction-based approach</a>.</li>
 
 </ul>
-
 
 ## Useful Resources
 <ul>
