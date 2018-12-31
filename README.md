@@ -219,7 +219,9 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 <li>
 Deleted record in Recycle Bin
 <img src="supportedimages/DeletedRecordInRecycleBin.png"/>
+</li>
 
+<li>
 <b>Undelete</b> an Employee__c record
 <img src="supportedimages/UndeleteEmployeeRecord.png"/>
 <img src="supportedimages/RestoredEmployeeRecord.png"/>
