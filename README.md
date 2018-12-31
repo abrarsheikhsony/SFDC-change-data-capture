@@ -299,7 +299,7 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 
 ## 3 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
 <ul>
-<li>Starting with Spring '19 (API version 45.0) release, you can <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers (Developer Preview)">Subscribe to Change Events with Apex Triggers (Developer Preview)</a></li>
+<li>You can <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers (Developer Preview)">subscribe to Change Events with Apex Triggers (Developer Preview)</a></li>
 <li>Apex triggers for change events are similar to Apex triggers on platform events.</li>
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
 <li>Perform resource-intensive business logic asynchronously in the change event trigger, and implement transaction-based logic in the Apex object trigger.</li>
@@ -315,6 +315,17 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>Executes asynchronously outside the Apex transaction that published the change event.</li>
 <li>Is subject to Apex synchronous governor limits.</li>
 <li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
+</ul>
+
+## 3.2 - Sample example of Change Event Triggers
+<ul>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
+</ul>
+
+## 3.3 - Change Event Trigger Considerations
+<ul>
+<li>You can't test Apex change event triggers using Apex tests.</li>
+<li>You also can't package change event triggers.</li>
 </ul>
 
 ## Useful Resources
