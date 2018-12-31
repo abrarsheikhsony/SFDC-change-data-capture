@@ -12,7 +12,7 @@ Change Data Capture (CDC)
 
 <li>Change Data Capture uses the Publisher/Subscriber model and Push technology.</li>
 
-<li>Using the publisher/subscriber model and push technology, Change Data Capture sends notifications to subscribers whenever a data change in Salesforce occurs.</li>
+<li>Change Data Capture sends notifications to subscribers whenever a data change in Salesforce occurs.</li>
 
 <li>Change Data Capture publishes events for changes in Salesforce records corresponding to <b>Create, Update, Delete, and Undelete operations.</b></li>
 
