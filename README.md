@@ -27,6 +27,7 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 <li>Capturing changes with Change Data Capture event notifications ensures that your external data can be updated in real time and stays fresh.</li>
 <li>You can use Change Data Capture as part of the data replication process.</li>
 <li>Capture all field changes for all records.</li>
+<li>Get broad access to all data regardless of sharing rules.</li>
 <li>Get information about the change in the event header, such as the origin of the change, so you can ignore changes that your client generates.</li>
 <li>Perform data updates using transaction boundaries when more than one operation is part of the same transaction.</li>
 <li>Use a versioned event schema.</li>
