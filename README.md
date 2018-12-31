@@ -110,6 +110,9 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 <li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
 
+## Change Data Capture in Setup
+<img src="supportedimages/ChangeDataCaptureInSetup.png"/>
+
 ## Useful Resources
 <ul>
 
