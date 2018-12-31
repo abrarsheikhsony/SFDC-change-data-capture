@@ -110,8 +110,15 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 <li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
 
-## Change Data Capture in Setup
-<img src="supportedimages/ChangeDataCaptureInSetup.png"/>
+## Example: Subscribe to an Event Channel
+<ul>
+<li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
+<li>Subscribe to Channel: /data/Employee__ChangeEvent</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 ## Useful Resources
 <ul>
