@@ -1,5 +1,4 @@
 # Change Data Capture (CDC)
-Change Data Capture (CDC)
 
 ## Introduction
 <ul>
@@ -25,6 +24,12 @@ Change Data Capture (CDC)
 <li>Use Change Data Capture to update data in an external system instead of doing periodic exports or API polling.</li>
 <li>Capturing changes with Change Data Capture event notifications ensures that your external data can be updated in real time and stays fresh.</li>
 <li>You can use Change Data Capture as part of the data replication process.</li>
+<li>Capture all field changes for all records.</li>
+<li>Get information about the change in the event header, such as the origin of the change, so you can ignore changes that your client generates.</li>
+<li>Perform data updates using transaction boundaries when more than one operation is part of the same transaction.</li>
+<li>Use a versioned event schema.</li>
+<li>Subscribe to mass changes in a scalable way.</li>
+<li>Get access to retained events for up to 3 days.</li>
 </ul>
 
 ## Useful Resources
