@@ -2,8 +2,13 @@
 Change Data Capture (CDC)
 
 ## Introduction
+<ol type="1">
+<li></li>
+</ol>
 
-
+<ul>
+<li></li>
+</ul>
 
 ## Useful Resources
 <ul>
