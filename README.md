@@ -304,7 +304,8 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
 <li>Perform resource-intensive business logic asynchronously in the change event trigger, and implement transaction-based logic in the Apex object trigger.</li>
 <li>By decoupling the processing of changes, change event triggers can help reduce transaction processing time.</li>
-<li></li>
+<li>Executes asynchronously outside the Apex transaction that published the change event.</li>
+<li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
 <li></li>
 </ul>
 
