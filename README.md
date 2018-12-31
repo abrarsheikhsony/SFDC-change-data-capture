@@ -115,7 +115,8 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 
 ## Change Event Objects in Metadata API
 Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API to retrieve and deploy Change Data Capture objects.
-<img src="supportedimages/TEST.png"/>
+<img src="supportedimages/PlatformEventChannel_In_PackageXML.png"/>
+<img src="supportedimages/PlatformEventChannel_MetadataType.png"/>
 
 ## Example: Subscribe to an Event Channel
 <ul>
