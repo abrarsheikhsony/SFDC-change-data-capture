@@ -287,7 +287,3 @@ Deleted record in Recycle Bin
 <li><a href="https://mohan-chinnappan-n.github.io/sfdc/cdc.html#/home" target="_blank" alt="GitHub: Salesforce Change Data Capture">GitHub: Salesforce Change Data Capture</a></li>
 
 </ul>
-
-<ol type="1">
-<li></li>
-</ol>
