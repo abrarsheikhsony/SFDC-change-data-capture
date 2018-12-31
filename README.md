@@ -84,7 +84,7 @@
 
 </ul>
 
-## Subscribe to and Replay Events Using a Lightning Component
+## Subscribe to an Event Channel using a Lightning Component
 <ul>
 <li>Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.api_streaming.meta/api_streaming/code_sample_lightning_cmp.htm" target="_blank" alt="Streaming API Developer Guide">Streaming API Developer Guide</a>.</li>
 <li>The <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning:empApi/documentation" target="_blank" alt="lightning:empApi component">lightning:empApi component</a> uses a shared CometD-based Streaming API connection, enabling you to run multiple streaming apps in the browser.</li>
@@ -92,11 +92,18 @@
 attribute to it.</li>
 <li><img src="supportedimages/Lightning_empApi.png"/></li>
 <li>Then in the client-side controller, add functions to call the component methods.</li>
-<li>All types of streaming events are supported, including:</li>
-<li>PushTopic events</li>
-<li>Change Data Capture events</li>
-<li>Platform events</li>
-<li>Generic events</li>
+</ul>
+
+## Subscription Channels
+<img src="supportedimages/SubscriptionChannels.png"/>
+
+## Field-Level Security
+Change Data Capture respects org’s field-level security settings. Delivered events contain only the fields that a subscribed user is allowed to view. 
+
+## Required User Permissions
+<ul>
+<li><img src="supportedimages/RequiredUserPermissions.png"/></li>
+<li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
 
 ## Useful Resources
