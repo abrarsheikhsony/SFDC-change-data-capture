@@ -1,6 +1,8 @@
 # Change Data Capture (CDC)
 Change Data Capture (CDC)
 
+## Introduction
+
 
 
 ## Useful Resources
