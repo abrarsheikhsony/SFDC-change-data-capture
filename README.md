@@ -114,10 +114,151 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
 <li>Subscribe to Channel: <b>/data/Employee__ChangeEvent</b></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+
+<li>
+<b>Create</b> a New Employee__c record
+<img src="supportedimages/NewEmployeeRecord.png"/>
+
+```
+{  
+	"schema":"YBKiola5arQ6oq4jvUZpqQ",
+	"payload":{
+		"ChangeEventHeader":{ 
+			"isTransactionEnd":true,
+			"commitNumber":145933457551,
+			"commitUser":"0051t000001pGyuAAE",
+			"sequenceNumber":1,
+			"entityName":"Employee__c",
+			"changeType":"CREATE",
+			"changeOrigin":"",
+			"transactionKey":"000a5ce4-e172-f003-7f8b-65985f51ff5d",
+			"commitTimestamp":1546275148000,
+			"recordIds":[  
+				"a011t00000AVBK2AAP"
+			]
+		},
+		"Name":"EN-0002",
+		"First_Name__c":"Marc",
+		"Last_Name__c":"Benioff",
+		"Tenure__c":18,
+		"OwnerId":"0051t000001pGyuAAE",
+		"CreatedById":"0051t000001pGyuAAE",
+		"CreatedDate":"2018-12-31T16:52:28Z",
+		"LastModifiedById":"0051t000001pGyuAAE",
+		"LastModifiedDate":"2018-12-31T16:52:28Z"
+	},
+	"event":{
+		"replayId":8894
+	}
+}
+```
+</li>
+
+<li>
+<b>Update</b> an Employee__c record
+<img src="supportedimages/UpdateEmployeeRecord.png"/>
+
+```
+{  
+	"schema":"YBKiola5arQ6oq4jvUZpqQ",
+	"payload":{  
+		"ChangeEventHeader":{
+			"isTransactionEnd":true,
+			"commitNumber":145934245284,
+			"commitUser":"0051t000001pGyuAAE",
+			"sequenceNumber":1,
+			"entityName":"Employee__c",
+			"changeType":"UPDATE",
+			"changeOrigin":"",
+			"transactionKey":"000a5f02-5bf7-616a-4920-372d508adce8",
+			"commitTimestamp":1546275285000,
+			"recordIds":[  
+				"a011t00000AVBK2AAP"
+			]
+		},
+		"First_Name__c":"Mr. Marc",
+		"LastModifiedDate":"2018-12-31T16:54:45Z"
+	},
+	"event":{  
+		"replayId":8895
+	}
+}
+```
+</li>
+
+<li>
+<b>Delete</b> an Employee__c record
+<img src="supportedimages/DeleteEmployeeRecord.png"/>
+
+```
+{  
+	"schema":"YBKiola5arQ6oq4jvUZpqQ",
+	"payload":{  
+		"ChangeEventHeader":{  
+			"isTransactionEnd":true,
+			"commitNumber":145934692846,
+			"commitUser":"0051t000001pGyuAAE",
+			"sequenceNumber":1,
+			"entityName":"Employee__c",
+			"changeType":"DELETE",
+			"changeOrigin":"",
+			"transactionKey":"000a5f1a-8a73-4106-4cdf-4233054ab64d",
+			"commitTimestamp":1546275362000,
+			"recordIds":[  
+				"a011t00000AVBK2AAP"
+			]
+		}
+	},
+	"event":{  
+		"replayId":8896
+	}
+}
+```
+</li>
+
+<li>
+Deleted record in Recycle Bin
+<img src="supportedimages/DeletedRecordInRecycleBin.png"/>
+
+<b>Undelete</b> an Employee__c record
+<img src="supportedimages/UndeleteEmployeeRecord.png"/>
+<img src="supportedimages/RestoredEmployeeRecord.png"/>
+
+```
+{  
+	"schema":"YBKiola5arQ6oq4jvUZpqQ",
+	"payload":{
+		"ChangeEventHeader":{
+			"isTransactionEnd":true,
+			"commitNumber":145935131858,
+			"commitUser":"0051t000001pGyuAAE",
+			"sequenceNumber":1,
+			"entityName":"Employee__c",
+			"changeType":"UNDELETE",
+			"changeOrigin":"",
+			"transactionKey":"000a5f2d-acde-66fe-94f2-142c3479e6d8",
+			"commitTimestamp":1546275440000,
+			"recordIds":[  
+				"a011t00000AVBK2AAP"
+			]
+		},
+		"Name":"EN-0002",
+		"First_Name__c":"Mr. Marc",
+		"Last_Name__c":"Benioff",
+		"Tenure__c":18,
+		"OwnerId":"0051t000001pGyuAAE",
+		"CreatedById":"0051t000001pGyuAAE",
+		"CreatedDate":"2018-12-31T16:52:28Z",
+		"LastModifiedById":"0051t000001pGyuAAE",
+		"LastModifiedDate":"2018-12-31T16:57:20Z"
+	},
+	"event":{  
+		"replayId":8898
+	}
+}
+```
+</li>
+
 </ul>
 
 ## Useful Resources
