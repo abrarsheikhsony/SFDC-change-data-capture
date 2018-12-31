@@ -38,6 +38,42 @@
 <li>Standard Objects: User, Lead, Account, Contact, Order, OrderItem, Product2, and others.</li>
 </ul>
 
+## Sample Change Event JSON
+
+```
+{
+	"schema":"TIOb-jG_qRb2ucSBIdByMA",
+	"payload":{
+		"ChangeEventHeader":{
+			"entityName":"Employee__c",
+			"recordIds":[
+				"a00xx0000004GvqAAE"
+			],
+			"changeType":"CREATE",
+			"changeOrigin":"com/salesforce/api/soap/44.0;client=GetCloudy",
+			"transactionKey":"00059b44-a6c7-ffa7-af68-8a455868ed30",
+			"sequenceNumber":1,
+			"isTransactionEnd":true,
+			"commitTimestamp":1533160499000,
+			"commitUser":"005xx000001SwSiAAK",
+			"commitNumber":356619267
+		},
+		"First_Name__c":"Jane",
+		"Last_Name__c":"Smith",
+		"Name":"e-100",
+		"Tenure__c":2.0,     
+		"LastModifiedDate":"2018-08-01T21:54:58Z",
+		"OwnerId":"005xx000001SwSiAAK",
+		"CreatedById":"005xx000001SwSiAAK",
+		"CreatedDate":"2018-08-01T21:54:58Z",
+		"LastModifiedById":"005xx000001SwSiAAK",
+	},
+	"event":{
+		"replayId":1
+	}
+}
+```
+
 ## Useful Resources
 <ul>
 
