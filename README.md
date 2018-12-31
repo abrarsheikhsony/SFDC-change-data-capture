@@ -328,6 +328,14 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>You also can't package change event triggers.</li>
 </ul>
 
+## Transaction-based Replication Approach
+<ul>
+
+<li>To maintain an accurate replica of your org’s data in another system, subscribe using a <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_replication_steps.htm" target="_blank" alt="transaction-based approach">transaction-based approach</a>.</li>
+
+</ul>
+
+
 ## Useful Resources
 <ul>
 
