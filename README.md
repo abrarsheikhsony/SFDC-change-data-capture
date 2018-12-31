@@ -38,7 +38,7 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 ## Supported Objects
 <ul>
 <li>Custom Objects</li>
-<li>Standard Objects: User, Lead, Account, Contact, Order, OrderItem, Product2, and others.</li>
+<li>Subset of <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_object_support.htm" target="_blank" alt="Standard Objects">Standard Objects</a></li>
 </ul>
 
 ## Sample Change Event JSON
