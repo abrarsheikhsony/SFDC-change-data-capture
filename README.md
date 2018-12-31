@@ -95,6 +95,7 @@ attribute to it.</li>
 </ul>
 
 ## Subscription Channels
+Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
 <img src="supportedimages/SubscriptionChannels.png"/>
 
 ## Field-Level Security
@@ -102,7 +103,10 @@ Change Data Capture respects org’s field-level security settings. Delivered ev
 
 ## Required User Permissions
 <ul>
-<li><img src="supportedimages/RequiredUserPermissions.png"/></li>
+<li>
+Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
+<img src="supportedimages/RequiredUserPermissions.png"/>
+</li>
 <li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
 
@@ -132,10 +136,3 @@ Change Data Capture respects org’s field-level security settings. Delivered ev
 <ol type="1">
 <li></li>
 </ol>
-
-<ul>
-<li></li>
-</ul>
-
-Reference from the <a href="" target="_blank" alt="TEST">TEST</a>.
-<img src="supportedimages/TEST.png"/>
