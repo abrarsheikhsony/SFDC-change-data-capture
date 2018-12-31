@@ -118,6 +118,9 @@ Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API
 <img src="supportedimages/PlatformEventChannel_In_PackageXML.png"/>
 <img src="supportedimages/PlatformEventChannel_MetadataType.png"/>
 
+## Fields in JSON & Apex Change Event Body
+<a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_event_fields_body.htm" target="_blank" alt="Change Event Body Fields">Change Event Body Fields</a>
+
 ## Example: Subscribe to an Event Channel
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
