@@ -121,14 +121,7 @@ Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API
 ## Fields in JSON & Apex Change Event Body
 <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_event_fields_body.htm" target="_blank" alt="Change Event Body Fields">Change Event Body Fields</a>
 
-## 1 - Subscribe to Change Events with the EMP Connector
-EMP Connector is an open-source sample tool that subscribes to streaming channels using Streaming API and CometD. EMP Connector is a thin wrapper around the CometD library and is implemented in Java.
-<ul>
-<li><a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/subscribe-to-events" target="_blank" alt="Subscribe Using EMP Connector 1">Subscribe Using EMP Connector 1</a></li>
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_emp_connector.htm" target="_blank" alt="Subscribe Using EMP Connector 2">Subscribe Using EMP Connector 2</a></li>
-</ul>
-
-## 2 - Subscribe to Change Events with the CometD
+## 1 - Subscribe to Change Events with the CometD
 CometD (A messaging library that enables listening to events through long polling and simulates push technology).
 <a href="https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/code_sample_interactive_vfp_intro.htm" target="_blank" alt="Interactive Visualforce Page without Replay">Interactive Visualforce Page without Replay</a>
 
@@ -282,6 +275,13 @@ Deleted record in Recycle Bin
 ```
 </li>
 
+</ul>
+
+## 2 - Subscribe to Change Events with the EMP Connector
+EMP Connector is an open-source sample tool that subscribes to streaming channels using Streaming API and CometD. EMP Connector is a thin wrapper around the CometD library and is implemented in Java.
+<ul>
+<li><a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/subscribe-to-events" target="_blank" alt="Subscribe Using EMP Connector Sample 1">Subscribe Using EMP Connector Sample 1</a></li>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_emp_connector.htm" target="_blank" alt="Subscribe Using EMP Connector Sample 2">Subscribe Using EMP Connector Sample 2</a></li>
 </ul>
 
 ## 3 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
