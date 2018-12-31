@@ -32,6 +32,12 @@
 <li>Get access to retained events for up to 3 days.</li>
 </ul>
 
+## Supported Objects
+<ul>
+<li>Custom Objects</li>
+<li>Standard Objects: User, Lead, Account, Contact, Order, OrderItem, Product2, and others.</li>
+</ul>
+
 ## Useful Resources
 <ul>
 
