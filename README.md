@@ -2,13 +2,30 @@
 Change Data Capture (CDC)
 
 ## Introduction
-<ol type="1">
+<ul>
 
 <li>Starting with <a href="https://releasenotes.docs.salesforce.com/en-us/winter19/release-notes/rn_data_change_events.htm" target="_blank" alt="Winter '19 (API version 44.0) release">Winter '19 (API version 44.0) release</a>, Change Data Capture (CDC) was Developer Preview "or" Pilot feature.</li>
 
 <li>Starting with <a href="https://releasenotes.docs.salesforce.com/en-us/spring19/release-notes/rn_data_change_events.htm" target="_blank" alt="Spring '19 (API version 45.0) release">Spring '19 (API version 45.0) release</a>, Change Data Capture (CDC) is Generally Available (GA).</li>
 
-</ol>
+<li>Change Data Capture is a Streaming Event feature on the Lightning Platform.</li>
+
+<li>Change Data Capture uses the Publisher/Subscriber model and Push technology.</li>
+
+<li>Using the publisher/subscriber model and push technology, Change Data Capture sends notifications to subscribers whenever a data change in Salesforce occurs.</li>
+
+<li>Change Data Capture publishes events for changes in Salesforce records corresponding to <b>Create, Update, Delete, and Undelete operations.</b></li>
+
+<li>You can receive changes of Salesforce records in real time and synchronize corresponding records in an external data store.</li>
+
+</ul>
+
+## Advantages
+<ul>
+<li>Use Change Data Capture to update data in an external system instead of doing periodic exports or API polling.</li>
+<li>Capturing changes with Change Data Capture event notifications ensures that your external data can be updated in real time and stays fresh.</li>
+<li>You can use Change Data Capture as part of the data replication process.</li>
+</ul>
 
 ## Useful Resources
 <ul>
