@@ -84,7 +84,19 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 <li>changeOrigin: Use this field to detect whether your app initiated the change, so you do not process the change again and potentially avoid a deep cycle of changes. This field contains the Salesforce API and the API client ID that initiated the change, if set by the client.</li>
 <li>Note: In the example, it is com/salesforce/api/soap/44.0;client=GetCloudy, which means that an app with clientID GetCloudy created the Employee record via SOAP API.</li>
 <li>The order of the fields in the JSON event message follows the underlying <b>Avro schema</b> that Change Events are based on.</li>
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_event_fields_header.htm" target="_blank" alt="Change Event Header Fields">Change Event Header Fields</a></li>
+<li>
+<a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_event_fields_header.htm" target="_blank" alt="Change Event Header Fields">Change Event Header Fields</a>
+
+<ul>
+<li>For gap events, the change type starts with the GAP_ prefix.</li>
+<li>GAP_CREATE</li>
+<li>GAP_UPDATE</li>
+<li>GAP_DELETE</li>
+<li>GAP_UNDELETE</li>
+<li>For overflow events, the change type is GAP_OVERFLOW.</li>
+</ul>
+
+</li>
 
 </ul>
 
