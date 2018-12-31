@@ -113,6 +113,10 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 <li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
 
+## Change Event Objects in Metadata API
+Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API to retrieve and deploy Change Data Capture objects.
+<img src="supportedimages/TEST.png"/>
+
 ## Example: Subscribe to an Event Channel
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
