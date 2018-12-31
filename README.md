@@ -20,7 +20,7 @@ Change Data Capture (CDC)
 
 </ul>
 
-## Advantages
+## When to Use Change Data Capture
 <ul>
 <li>Use Change Data Capture to update data in an external system instead of doing periodic exports or API polling.</li>
 <li>Capturing changes with Change Data Capture event notifications ensures that your external data can be updated in real time and stays fresh.</li>
