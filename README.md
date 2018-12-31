@@ -84,6 +84,21 @@
 
 </ul>
 
+## Subscribe to and Replay Events Using a Lightning Component
+<ul>
+<li>Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.api_streaming.meta/api_streaming/code_sample_lightning_cmp.htm" target="_blank" alt="Streaming API Developer Guide">Streaming API Developer Guide</a>.</li>
+<li>The <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning:empApi/documentation" target="_blank" alt="lightning:empApi component">lightning:empApi component</a> uses a shared CometD-based Streaming API connection, enabling you to run multiple streaming apps in the browser.</li>
+<li>To call the component’s methods, add the lightning:empApi component inside your custom component and assign an aura:id
+attribute to it.</li>
+<li><img src="supportedimages/Lightning_empApi.png"/></li>
+<li>Then in the client-side controller, add functions to call the component methods.</li>
+<li>All types of streaming events are supported, including:</li>
+<li>PushTopic events</li>
+<li>Change Data Capture events</li>
+<li>Platform events</li>
+<li>Generic events</li>
+</ul>
+
 ## Useful Resources
 <ul>
 
