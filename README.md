@@ -304,9 +304,17 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
 <li>Perform resource-intensive business logic asynchronously in the change event trigger, and implement transaction-based logic in the Apex object trigger.</li>
 <li>By decoupling the processing of changes, change event triggers can help reduce transaction processing time.</li>
+</ul>
+
+## 3.1 - Understanding of Change Event Triggers
+<ul>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm" target="_blank" alt="Understanding of Change Event Triggers">Understanding of Change Event Triggers</a></li>
+<li>Is an after-insert trigger (defined with the after insert keyword).</li>
+<li>Debug logs corresponding to the trigger execution are created by Automated Process.</li>
+<li>The system fields of records that the trigger processes, such as CreatedById and LastModifiedById, also reference the Automated Process entity.</li>
 <li>Executes asynchronously outside the Apex transaction that published the change event.</li>
+<li>Is subject to Apex synchronous governor limits.</li>
 <li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
-<li></li>
 </ul>
 
 ## Useful Resources
