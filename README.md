@@ -1,5 +1,7 @@
 # Change Data Capture (CDC)
 
+This GitHub Repo explains specifically for Change Data Capture (CDC). If you are looking for ALL Stremaning events then have a look at <a href="https://github.com/abrarsheikhsony/SFDC-streaming-api-events" target="_blank" alt="this detailed GitHub Repo">this detailed GitHub Repo</a>.
+
 ## Introduction
 <ul>
 
