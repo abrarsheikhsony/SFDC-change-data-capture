@@ -100,16 +100,6 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 
 </ul>
 
-## Subscribe to an Event Channel using a Lightning Component
-<ul>
-<li>Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.api_streaming.meta/api_streaming/code_sample_lightning_cmp.htm" target="_blank" alt="Streaming API Developer Guide">Streaming API Developer Guide</a>.</li>
-<li>The <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning:empApi/documentation" target="_blank" alt="lightning:empApi component">lightning:empApi component</a> uses a shared CometD-based Streaming API connection, enabling you to run multiple streaming apps in the browser.</li>
-<li>To call the component’s methods, add the lightning:empApi component inside your custom component and assign an aura:id
-attribute to it.</li>
-<li><img src="supportedimages/Lightning_empApi.png"/></li>
-<li>Then in the client-side controller, add functions to call the component methods.</li>
-</ul>
-
 ## Subscription Channels
 Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
 <img src="supportedimages/SubscriptionChannels.png"/>
@@ -297,7 +287,17 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_emp_connector.htm" target="_blank" alt="Subscribe Using EMP Connector Sample 2">Subscribe Using EMP Connector Sample 2</a></li>
 </ul>
 
-## 3 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
+## 3 - Subscribe to Change Events with a Lightning Component
+<ul>
+<li>Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.api_streaming.meta/api_streaming/code_sample_lightning_cmp.htm" target="_blank" alt="Streaming API Developer Guide">Streaming API Developer Guide</a>.</li>
+<li>The <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning:empApi/documentation" target="_blank" alt="lightning:empApi component">lightning:empApi component</a> uses a shared CometD-based Streaming API connection, enabling you to run multiple streaming apps in the browser.</li>
+<li>To call the component’s methods, add the lightning:empApi component inside your custom component and assign an aura:id
+attribute to it.</li>
+<li><img src="supportedimages/Lightning_empApi.png"/></li>
+<li>Then in the client-side controller, add functions to call the component methods.</li>
+</ul>
+
+## 4 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
 <ul>
 <li>You can <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers (Developer Preview)">subscribe to Change Events with Apex Triggers (Developer Preview)</a></li>
 <li>Apex triggers for change events are similar to Apex triggers on platform events.</li>
@@ -306,7 +306,7 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>By decoupling the processing of changes, change event triggers can help reduce transaction processing time.</li>
 </ul>
 
-## 3.1 - Understanding of Change Event Triggers
+## 4.1 - Understanding of Change Event Triggers
 <ul>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm" target="_blank" alt="Understanding of Change Event Triggers">Understanding of Change Event Triggers</a></li>
 <li>Is an after-insert trigger (defined with the after insert keyword).</li>
@@ -317,19 +317,19 @@ EMP Connector is an open-source sample tool that subscribes to streaming channel
 <li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
 </ul>
 
-## 3.2 - Sample example of Change Event Triggers
+## 4.2 - Sample example of Change Event Triggers
 <ul>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
 </ul>
 
-## 3.3 - Change Event Trigger Considerations
+## 4.3 - Change Event Trigger Considerations
 <ul>
 <li>You can't test Apex change event triggers using <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Apex tests">Apex tests</a>.</li>
 <li>You also can't <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="package">package</a> change event triggers.</li>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Formula fields">Formula fields </a> aren't included in change events.</li>
 </ul>
 
-## 3.4 - Gap and Overflow Events
+## 4.4 - Gap and Overflow Events
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
