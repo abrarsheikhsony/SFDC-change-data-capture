@@ -322,7 +322,13 @@ attribute to it.</li>
 
 ## 4.2 - Sample example of Change Event Triggers
 <ul>
+
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
+
+<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_streaming_api.htm&type=5" target="_blank" alt="Salesforce Documentation: Subscribe to Changes with the Streaming API">Salesforce Documentation: Subscribe to Changes with the Streaming API</a></li>
+
+<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_create_triggers.htm&type=5" target="_blank" alt="Salesforce Documentation: React to Changes with Apex Triggers">Salesforce Documentation: React to Changes with Apex Triggers</a></li>
+
 </ul>
 
 ## 4.3 - Change Event Trigger Considerations
@@ -365,6 +371,18 @@ attribute to it.</li>
 
 <li><a href="https://www.salesforce.com/video/1778488/" target="_blank" alt="Salesforce Video: Why Subscribing To Change Data Capture Event Is Better Than Polling For Data">Salesforce Video: Why Subscribing To Change Data Capture Event Is Better Than Polling For Data</a></li>
 
+<li><a href="https://blog.texei.com/get-live-notifications-when-the-record-youre-viewing-gets-modified-58c71cfddc0b" target="_blank" alt="Blog: Get live notifications when the record you’re viewing gets modified">Blog: Get live notifications when the record you’re viewing gets modified</a></li>
+
+<li><a href="http://sfdcfacts.com/platform/change-data-capture-events-in-salesforce-keep-your-ui-updated-with-latest-data/" target="_blank" alt="Blog: Keep your UI updated with latest data">Blog: Keep your UI updated with latest data</a></li>
+
+<li><a href="http://sfdcfacts.com/lightning/lightningempapi-winter19-capture-streaming-events/" target="_blank" alt="Blog: lightning:empApi #Winter19 – Capture Streaming Events">Blog: lightning:empApi #Winter19 – Capture Streaming Events</a></li>
+
+<li><a href="http://bobbuzzard.blogspot.com/2018/08/lightning-emp-api-in-winter-19.html" target="_blank" alt="Blog: Emp API in Winter 19">Blog: Emp API in Winter 19</a></li>
+
+<li><a href="http://simpluslabs.com/how-to-use-platform-event-in-lightning-by-using-lightningempapi/" target="_blank" alt="Blog: How to use Platform Event in lightning by using lightning:empApi">Blog: How to use Platform Event in lightning by using lightning:empApi</a></li>
+
 <li><a href="https://mohan-chinnappan-n.github.io/sfdc/cdc.html#/home" target="_blank" alt="GitHub: Salesforce Change Data Capture">GitHub: Salesforce Change Data Capture</a></li>
+
+<li><a href="https://github.com/parthiban019/lightning-empApi" target="_blank" alt="GitHub: lightning-empApi">GitHub: lightning-empApi</a></li>
 
 </ul>
