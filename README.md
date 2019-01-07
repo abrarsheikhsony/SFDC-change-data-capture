@@ -129,7 +129,7 @@ CometD (A messaging library that enables listening to events through long pollin
 
 <a href="https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/code_sample_interactive_vfp_intro.htm" target="_blank" alt="Interactive Visualforce Page without Replay">Interactive Visualforce Page without Replay</a>
 
-<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_streaming_api.htm&type=5" target="_blank" alt="Salesforce Documentation: Subscribe to Changes with the Streaming API">Salesforce Documentation: Subscribe to Changes with the Streaming API</a></li>
+<a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_streaming_api.htm&type=5" target="_blank" alt="Subscribe to Changes with the Streaming API">Subscribe to Changes with the Streaming API</a>
 
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
