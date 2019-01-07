@@ -126,7 +126,10 @@ Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API
 
 ## 1 - Subscribe to Change Events with the CometD
 CometD (A messaging library that enables listening to events through long polling and simulates push technology).
+
 <a href="https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/code_sample_interactive_vfp_intro.htm" target="_blank" alt="Interactive Visualforce Page without Replay">Interactive Visualforce Page without Replay</a>
+
+<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_streaming_api.htm&type=5" target="_blank" alt="Salesforce Documentation: Subscribe to Changes with the Streaming API">Salesforce Documentation: Subscribe to Changes with the Streaming API</a></li>
 
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
@@ -324,8 +327,6 @@ attribute to it.</li>
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
-
-<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_streaming_api.htm&type=5" target="_blank" alt="Salesforce Documentation: Subscribe to Changes with the Streaming API">Salesforce Documentation: Subscribe to Changes with the Streaming API</a></li>
 
 <li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_create_triggers.htm&type=5" target="_blank" alt="Salesforce Documentation: React to Changes with Apex Triggers">Salesforce Documentation: React to Changes with Apex Triggers</a></li>
 
