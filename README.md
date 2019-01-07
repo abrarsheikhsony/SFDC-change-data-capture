@@ -130,6 +130,8 @@ CometD (A messaging library that enables listening to events through long pollin
 
 <ul>
 <li>Change Data Capture in Setup <img src="supportedimages/ChangeDataCaptureInSetup.png"/></li>
+<li><b>Note:</b> Here, the filter is case-sensitive. Make sure that you use the same case as the entity.</li>
+
 <li>Subscribe to Channel: <b>/data/Employee__ChangeEvent</b></li>
 
 <li>
