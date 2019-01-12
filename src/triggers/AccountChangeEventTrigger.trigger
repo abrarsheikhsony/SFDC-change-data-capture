@@ -32,4 +32,23 @@ trigger AccountChangeEventTrigger on AccountChangeEvent (after insert) {
         CustomerNotification.notifySubscribers(accountIds);
     }
 
+    /*
+    // Debug Log Sample
+    >>Received Change Event<<
+    >>EntityName<<Account
+    >>ChangeOrigin<<
+    >>ChangeType<<CREATE
+    >>RecordIds<<(0011t00000FOZZ8AAP)
+    >>TransactionKey<<000e2071-e1b0-f23a-8b15-ded2e35785ab
+    >>SequenceNumber<<1
+    >>CommitTimestamp<<1547332370000
+    >>CommitUser<<0051t000001pGyuAAE
+    >>CommitNumber<<153213751644
+    >>NulledFields<<()
+    >>Difffields<<()
+    >>Account Name<<Marc Benioff
+    >>Account Phone<<(415) 901-8000
+    >>Account AccountNumber<<9001
+    */
+
 }
