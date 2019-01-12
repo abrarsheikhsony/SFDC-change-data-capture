@@ -104,6 +104,7 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 <ul>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_message_structure.htm" target="_blank" alt="Change Event Message Structure">Change Event Message Structure</a></li>
 </li>Make a GET request to this resource:
+
 ```
 /services/data/v44.0/sobjects/Employee__ChangeEvent/eventSchema?payloadFormat=EXPANDED
 ```
