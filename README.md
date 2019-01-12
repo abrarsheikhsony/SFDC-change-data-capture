@@ -100,6 +100,16 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 
 </ul>
 
+## Change Event Schema by Event Name
+<ul>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_message_structure.htm" target="_blank" alt="Change Event Message Structure">Change Event Message Structure</a></li>
+</li>Make a GET request to this resource:
+```
+/services/data/v44.0/sobjects/Employee__ChangeEvent/eventSchema?payloadFormat=EXPANDED
+```
+</li>
+</ul>
+	
 ## Subscription Channels
 Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
 <img src="supportedimages/SubscriptionChannels.png"/>
