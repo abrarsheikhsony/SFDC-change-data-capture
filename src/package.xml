@@ -18,14 +18,6 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>CustomLabels</members>
-        <name>CustomLabels</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomMetadata</name>
-    </types>
-    <types>
         <members>Employee__c</members>
         <name>CustomObject</name>
     </types>
@@ -33,5 +25,5 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    <version>44.0</version>
+    <version>45.0</version>
 </Package>

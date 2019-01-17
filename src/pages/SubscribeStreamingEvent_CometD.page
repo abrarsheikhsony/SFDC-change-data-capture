@@ -1,0 +1,61 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0" lightningStyleSheets="true">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Salesforce Lightning Design System Trailhead Module</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Import the Design System style sheet -->
+        <apex:slds />
+    </head>
+
+    <apex:includeScript value="{!$Resource.json2_js}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.cometd_zip, 'dojo/dojo.js')}" data-dojo-config="async: 1"></script>
+    <apex:stylesheet value="{!$Resource.demo_css}"/>
+    <script>var token = '{!$Api.Session_ID}';</script>
+
+    <body>
+        <!-- REQUIRED SLDS WRAPPER -->
+        <div class="slds-scope">
+      
+            <div id="demo">
+                <div id="datastream"></div>
+                <script type="text/javascript" src="{!$Resource.demo_js}">
+                </script>
+                
+                <div id="input">
+                    <div id="join">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td> Enter Topic Name </td>
+                                    <td>
+                                        <input id="topic" type="text" />
+                                    </td>
+                                    <td>
+                                        <button id="subscribeButton" class="button">Subscribe</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="joined">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <button id="leaveButton" class="button">Unsubscribe</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- / REQUIRED SLDS WRAPPER -->
+    </body>
+
+</apex:page>
