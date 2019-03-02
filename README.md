@@ -379,6 +379,13 @@ attribute to it.</li>
 
 </ul>
 
+## Change Data Capture Allocations
+<ul>
+
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_allocations.htm" target="_blank" alt="Change Data Capture Allocations">Change Data Capture Allocations</a>.</li>
+
+</ul>
+
 ## Useful Resources
 <ul>
 
