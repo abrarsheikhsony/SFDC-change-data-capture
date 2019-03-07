@@ -1,18 +1,24 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
 
-	<lightning:empApi aura:id="empApi" />
+    <lightning:empApi aura:id="empApi" />
 
     <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
 
     <aura:attribute name="subscription" type="Map" />
-	<aura:attribute name="response" type="String" default="Reponse will be displayed here!"/>
+    <aura:attribute name="response" type="String" default="Change Event reponses will be displayed here!"/>
     
     <lightning:input aura:id="channel" label="Enter Subscription Channel" name="channel" type="text"/>
     <lightning:button label="Subscribe" onclick="{! c.subscribe }" />
     <lightning:button label="Unsubscribe" onclick="{! c.unsubscribe }" disabled="{!empty(v.subscription)}"/>    
     
     <br/><br/>
+    <ul>
+        <li>(1) This is a Lightning component with the tag <b>"lightning:empApi"</b> which is using shared CometD-based Streaming API connection.</li>
+        <li>(2) Using this we don't need to add anymore CometD library as static resource.</li>
+    </ul>
+
+    <br/>
     <aura:unescapedHtml value="{!v.response}" />
-    <br/><br/>
-    
+    <br/>
+        
 </aura:component>

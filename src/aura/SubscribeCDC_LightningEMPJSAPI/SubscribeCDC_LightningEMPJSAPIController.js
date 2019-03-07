@@ -26,22 +26,11 @@
         // Subscribe to an event
         empApi.subscribe(channel, replayId, $A.getCallback(eventReceived => {
             // Process event (this is called each time we receive an event)
-            console.log('Received event: ', JSON.stringify(eventReceived));
             
+            console.log('Received event: ', JSON.stringify(eventReceived, null, 2));
             var myResponse = component.get('v.response');
-            component.set('v.response', myResponse + '<br/><br/><br/><br/>' + JSON.stringify(eventReceived));
-
-            /*
-            // Show Pop-Up Message
-            var toastEvent = $A.get("e.force:showToast");
-            toastEvent.setParams({
-            	"title": "Success",
-                "message": "Message! "+JSON.stringify(eventReceived),
-                "type": "success",
-                "mode": "sticky"
-            });
-            toastEvent.fire();
-            */
+            component.set('v.response', myResponse + '<br/><br/><pre>'+ JSON.stringify(eventReceived, null, '  ')+'</pre>');            
+            
             
         }))
         .then(subscription => {
