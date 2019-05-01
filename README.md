@@ -382,9 +382,10 @@ attribute to it.</li>
 <li>The events that you can receive include platform events, PushTopic events, generic events, and Change Data Capture events.</li>
 </ul>
 
-## 5 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
+## 5 - Subscribe to Change Events with the Apex Triggers
 <ul>
-<li>You can <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm" target="_blank" alt="Process Change Event Messages in Apex Triggers">Process Change Event Messages in Apex Triggers</a></li>
+<li>Starting with Summer '19 release, you can now <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm" target="_blank" alt="Process Change Event Messages in Apex Triggers">Process Change Event Messages in Apex Triggers</a></li>.
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers">Subscribe with Apex Triggers</a></li>
 <li>Apex triggers for change events are similar to Apex triggers on platform events.</li>
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
 <li>Perform resource-intensive business logic asynchronously in the change event trigger, and implement transaction-based logic in the Apex object trigger.</li>
