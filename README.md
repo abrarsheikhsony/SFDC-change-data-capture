@@ -430,64 +430,32 @@ attribute to it.</li>
 <li>By decoupling the processing of changes, change event triggers can help reduce transaction processing time.</li>
 </ul>
 
-## 5.1 - Understanding of Change Event Triggers
-<ul>
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm" target="_blank" alt="Understanding of Change Event Triggers">Understanding of Change Event Triggers</a></li>
-<li>Is an after-insert trigger (defined with the after insert keyword).</li>
-<li>Debug logs corresponding to the trigger execution are created by Automated Process.</li>
-<li>The system fields of records that the trigger processes, such as CreatedById and LastModifiedById, also reference the Automated Process entity.</li>
-<li>Executes asynchronously outside the Apex transaction that published the change event.</li>
-<li>Is subject to Apex synchronous governor limits.</li>
-<li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
-</ul>
-
-## 5.2 - Sample example of Change Event Triggers
-<ul>
-
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
-<li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_create_triggers.htm&type=5" target="_blank" alt="Salesforce Documentation: React to Changes with Apex Triggers">Salesforce Documentation: React to Changes with Apex Triggers</a></li>
-
-</ul>
-
-## 5.3 - Change Event Trigger Considerations
-<ul>
-<li>You can't test Apex change event triggers using <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Apex tests">Apex tests</a>.</li>
-<li>You also can't <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="package">package</a> change event triggers.</li>
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Formula fields">Formula fields </a> aren't included in change events.</li>
-</ul>
-
-## 6 - Gap and Overflow Events
-<ul>
-
-<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
-
-</ul>
-
-## 7 - Subscribe to a Custom (Virtual) Channel
+## 6 - Subscribe to a Custom (Virtual) Channel
 <ul>
 <li>Starting with Summer '19 release, you can now subscribe to <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_data_capture_custom_channels.htm" target="_blank" alt="Custom Channels">Custom Channels</a> to receive specific types of events (e.g. Account, Contact, Employee__c etc.).</li>
-<li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
-</ul>
-
-## 8 - External Change Data Capture
-<ul>
-<li>Starting with Summer '19 release, <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a> is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
 <li>You can create a custom channel with <a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_custom_channel.htm" target="_blank" alt="Metadata API">Metadata API</a>. You can’t create or view custom channels in Setup in the Change Data Capture page.</li>
 <li>/data/YourChannelName__chn = /data/SalesEvents__chn</li>
 </ul>
 
+## Gap and Overflow Events
+<ul>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
+</ul>
+
 ## Transaction-based Replication Approach
 <ul>
-
 <li>To maintain an accurate replica of your org’s data in another system, subscribe using a <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_replication_steps.htm" target="_blank" alt="transaction-based approach">transaction-based approach</a>.</li>
-
 </ul>
 
 ## Change Data Capture Allocations
 <ul>
-
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_allocations.htm" target="_blank" alt="Change Data Capture Allocations">Change Data Capture Allocations</a>.</li>
+</ul>
 
+## External Change Data Capture
+<ul>
+<li>Starting with Summer '19 release, <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a> is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
+<li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
 </ul>
 
 ## Useful Resources
