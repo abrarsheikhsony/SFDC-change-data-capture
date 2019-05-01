@@ -395,10 +395,17 @@ attribute to it.</li>
 
 </ul>
 
-## 7 - External Change Data Capture
+## 7 - Subscribe to a Custom (Virtual) Channel
+<ul>
+<li>Starting with Summer '19 release, you can now subscribe to <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_data_capture_custom_channels.htm" target="_blank" alt="Custom Channels">Custom Channels</a> to receive specific types of events (e.g. Account, Contact, Employee__c etc.).</li>
+<li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
+</ul>
+
+## 8 - External Change Data Capture
 <ul>
 <li>Starting with Summer '19 release, <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a> is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
-<li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
+<li>You can create a custom channel with <a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_custom_channel.htm" target="_blank" alt="Metadata API">Metadata API</a>. You can’t create or view custom channels in Setup in the Change Data Capture page.</li>
+<li>/data/YourChannelName__chn = /data/SalesEvents__chn</li>
 </ul>
 
 ## Transaction-based Replication Approach
