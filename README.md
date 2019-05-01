@@ -345,7 +345,7 @@ attribute to it.</li>
 
 ## 4 - Subscribe to Change Events with a Lightning Web Component (LWC)
 <ul>
-<li>Starting with Summer '19 release, you can subscribe to an event channel using the<a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_platform_event_lwc_empapi.htm" target="_blank" alt="lightning/empApi module">lightning/empApi module</a></li>
+<li>Starting with Summer '19 release, you can subscribe to an event channel using the <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_platform_event_lwc_empapi.htm" target="_blank" alt="lightning/empApi module">lightning/empApi module</a></li>
 <li>The events that you can receive include platform events, PushTopic events, generic events, and Change Data Capture events.</li>
 </ul>
 
@@ -385,11 +385,17 @@ attribute to it.</li>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Formula fields">Formula fields </a> aren't included in change events.</li>
 </ul>
 
-## 5.4 - Gap and Overflow Events
+## 6 - Gap and Overflow Events
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
 
+</ul>
+
+## 7 - External Change Data Capture
+<ul>
+<li>Starting with Summer '19 release <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a>is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
+<li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
 </ul>
 
 ## Transaction-based Replication Approach
