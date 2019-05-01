@@ -343,16 +343,22 @@ attribute to it.</li>
 <li>Then in the client-side controller, add functions to call the component methods.</li>
 </ul>
 
-## 4 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
+## 4 - Subscribe to Change Events with a Lightning Web Component (LWC)
 <ul>
-<li>You can <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers (Developer Preview)">subscribe to Change Events with Apex Triggers (Developer Preview)</a></li>
+<li>Starting with Summer '19 release, you can subscribe to an event channel using the<a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_platform_event_lwc_empapi.htm" target="_blank" alt="lightning/empApi module">lightning/empApi module</a></li>
+<li>The events that you can receive include platform events, PushTopic events, generic events, and Change Data Capture events.</li>
+</ul>
+
+## 5 - Subscribe to Change Events with the Apex Triggers (Developer Preview)
+<ul>
+<li>You can <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm" target="_blank" alt="Process Change Event Messages in Apex Triggers">Process Change Event Messages in Apex Triggers</a></li>
 <li>Apex triggers for change events are similar to Apex triggers on platform events.</li>
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
 <li>Perform resource-intensive business logic asynchronously in the change event trigger, and implement transaction-based logic in the Apex object trigger.</li>
 <li>By decoupling the processing of changes, change event triggers can help reduce transaction processing time.</li>
 </ul>
 
-## 4.1 - Understanding of Change Event Triggers
+## 5.1 - Understanding of Change Event Triggers
 <ul>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_intro.htm" target="_blank" alt="Understanding of Change Event Triggers">Understanding of Change Event Triggers</a></li>
 <li>Is an after-insert trigger (defined with the after insert keyword).</li>
@@ -363,7 +369,7 @@ attribute to it.</li>
 <li>Any type of change event fires a change event trigger, including gap events and overflow events.</li>
 </ul>
 
-## 4.2 - Sample example of Change Event Triggers
+## 5.2 - Sample example of Change Event Triggers
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
@@ -372,14 +378,14 @@ attribute to it.</li>
 
 </ul>
 
-## 4.3 - Change Event Trigger Considerations
+## 5.3 - Change Event Trigger Considerations
 <ul>
 <li>You can't test Apex change event triggers using <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Apex tests">Apex tests</a>.</li>
 <li>You also can't <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="package">package</a> change event triggers.</li>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_general_considerations.htm" target="_blank" alt="Formula fields">Formula fields </a> aren't included in change events.</li>
 </ul>
 
-## 4.4 - Gap and Overflow Events
+## 5.4 - Gap and Overflow Events
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_other_events.htm" target="_blank" alt="Other Types of Change Events: Gap and Overflow Events">Other Types of Change Events: Gap and Overflow Events</a></li>
