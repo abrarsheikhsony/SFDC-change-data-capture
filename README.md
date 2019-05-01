@@ -394,7 +394,7 @@ attribute to it.</li>
 
 ## 7 - External Change Data Capture
 <ul>
-<li>Starting with Summer '19 release <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a>is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
+<li>Starting with Summer '19 release, <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_forcecom_external_data_change_capture_ga.htm" target="_blank" alt="External Change Data Capture">External Change Data Capture</a> is now Generally Available (GA) in Salesforce Connect using the OData 4.0 adapter.</li>
 <li>You can track changes made to the External Object from within Salesforce and changes made outside of Salesforce are tracked.</li>
 </ul>
 
