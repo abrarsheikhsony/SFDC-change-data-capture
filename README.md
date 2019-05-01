@@ -155,7 +155,7 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 
   <tr>
     <td>Custom Object</td>
-    <td>"/data/CustomObjectName__ChangeEvent"</td>
+    <td>/data/CustomObjectName__ChangeEvent</td>
     <td>/data/Employee__ChangeEvent</td>
   </tr>
 
