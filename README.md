@@ -172,7 +172,7 @@ Change Data Capture respects org’s field-level security settings. Delivered ev
 ## Required User Permissions
 <ul>
 <li>
-Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
+Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_security_perms.htm" target="_blank" alt="Required Permissions for Subscription">Required Permissions for Subscription</a>.
 
 <table>
   <tr>
