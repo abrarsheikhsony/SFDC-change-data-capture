@@ -134,7 +134,37 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 
 ## Subscription Channels
 Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
-<img src="supportedimages/SubscriptionChannels.png"/>
+<table>
+  <tr>
+    <th>Subscribe to change events for:</th>
+    <th>Channel</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>All Change Events (all objects)</td>
+    <td>/data/ChangeEvents</td>
+    <td></td>
+  </tr>
+
+
+  <tr>
+    <td>Standard Object</td>
+    <td>/data/<Standard_Object_Name>ChangeEvent</td>
+    <td>/data/AccountChangeEvent</td>
+  </tr>
+
+  <tr>
+    <td>Custom Object</td>
+    <td>/data/<Custom_Object_Name>__ChangeEvent</td>
+    <td>/data/Employee__ChangeEvent</td>
+  </tr>
+
+  <tr>
+    <td>Custom Channel</td>
+    <td>/data/YourChannelName__chn</td>
+    <td>/data/SalesEvents__chn</td>
+  </tr>
+</table>
 
 ## Field-Level Security
 Change Data Capture respects org’s field-level security settings. Delivered events contain only the fields that a subscribed user is allowed to view. 
