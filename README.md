@@ -133,7 +133,7 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 </ul>
 
 ## Subscription Channels
-Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
+Reference from the <a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_subscribe_channels.htm" target="_blank" alt="Change Data Capture guide">Change Data Capture guide</a>.
 <table>
   <tr>
     <th>Subscribe to change events for:</th>
