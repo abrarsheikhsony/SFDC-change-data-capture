@@ -149,13 +149,13 @@ Reference from the <a href="https://trailhead.salesforce.com/content/learn/modul
 
   <tr>
     <td>Standard Object</td>
-    <td>"/data/<Standard_Object_Name>ChangeEvent"</td>
+    <td>/data/StandardObjectNameChangeEvent</td>
     <td>/data/AccountChangeEvent</td>
   </tr>
 
   <tr>
     <td>Custom Object</td>
-    <td>"/data/<Custom_Object_Name>__ChangeEvent"</td>
+    <td>"/data/CustomObjectName__ChangeEvent"</td>
     <td>/data/Employee__ChangeEvent</td>
   </tr>
 
