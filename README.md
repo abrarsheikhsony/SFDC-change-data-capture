@@ -33,6 +33,9 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 <li>Use a versioned event schema.</li>
 <li>Subscribe to mass changes in a scalable way.</li>
 <li>Get access to retained events for up to 3 days.</li>
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_select_objects.htm" target="_blank" alt="You can select up to 5 entities">You can select up to 5 entities</a>, including standard and custom objects.</li>
+<li>To enable more entities, contact Salesforce to purchase an add-on license.</li>
+<li>The add-on license removes the limit on the number of entities you can select. Also, it increases the CometD event delivery allocation.</li>
 </ul>
 
 ## Supported Objects
