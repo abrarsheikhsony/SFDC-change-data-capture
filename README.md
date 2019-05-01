@@ -173,7 +173,45 @@ Change Data Capture respects org’s field-level security settings. Delivered ev
 <ul>
 <li>
 Reference from the <a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture/learn-change-data-capture-characteristics" target="_blank" alt="Trailhead: Learn Change Data Capture Characteristics">Trailhead: Learn Change Data Capture Characteristics</a>.
-<img src="supportedimages/RequiredUserPermissions.png"/>
+
+<table>
+  <tr>
+    <th>Channel</th>
+    <th>Required Permissions</th>
+  </tr>
+  <tr>
+    <td>/data/ChangeEvents</td>
+    <td>View All Data AND View All Users</td>
+  </tr>
+
+  <tr>
+    <td>/data/UserChangeEvent</td>
+    <td>View All Users</td>
+  </tr>
+
+  <tr>
+    <td>
+/data/StandardObjectNameChangeEvent
+Or
+
+/data/CustomObjectName__ChangeEvent
+    </td>
+    <td>
+View All for the object OR View All Data
+
+Some standard objects don’t have the View All permission, such as Task and Event. In this case, the View All Data permission is required.
+    </td>
+  </tr>
+
+  <tr>
+    <td>/data/YourChannelName__chn</td>
+    <td>
+View All for the object OR View All Data
+View All Users for User change events
+    </td>
+  </tr>
+</table>
+
 </li>
 <li>User permissions are enforced when the user subscribes to a channel. If the user has insufficient permissions, the user can’t subscribe to the channel and an error is returned.</li>
 </ul>
