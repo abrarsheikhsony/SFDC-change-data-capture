@@ -384,7 +384,7 @@ attribute to it.</li>
 
 ## 5 - Subscribe to Change Events with the Apex Triggers
 <ul>
-<li>Starting with Summer '19 release, you can now <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm" target="_blank" alt="Process Change Event Messages in Apex Triggers">Process Change Event Messages in Apex Triggers</a></li>.
+<li>Starting with Summer '19 release, you can now <a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_change_event_triggers.htm" target="_blank" alt="Process Change Event Messages in Apex Triggers">Process Change Event Messages in Apex Triggers</a></li>
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.220.0.change_data_capture.meta/change_data_capture/cdc_subscribe_apex_triggers.htm" target="_blank" alt="Subscribe with Apex Triggers">Subscribe with Apex Triggers</a></li>
 <li>Apex triggers for change events are similar to Apex triggers on platform events.</li>
 <li>Change event triggers run asynchronously after the database transaction is completed.</li>
@@ -407,7 +407,6 @@ attribute to it.</li>
 <ul>
 
 <li><a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_trigger_quick_start.htm" target="_blank" alt="Apex Trigger Quick Start and Example">Apex Trigger Quick Start and Example</a></li>
-
 <li><a href="https://help.salesforce.com/articleView?id=external_object_change_tracking_example_create_triggers.htm&type=5" target="_blank" alt="Salesforce Documentation: React to Changes with Apex Triggers">Salesforce Documentation: React to Changes with Apex Triggers</a></li>
 
 </ul>
