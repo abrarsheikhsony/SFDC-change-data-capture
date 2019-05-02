@@ -52,34 +52,33 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 ```
 {
   "data": {
-    "schema": "YBKiola5arQ6oq4jvUZpqQ",
+    "schema": "fl8pv4oUvtbyFAwJQO2NAQ",
     "payload": {
-      "LastModifiedDate": "2019-03-07T21:58:32Z",
-      "OwnerId": "0051t000001pGyuAAE",
-      "CreatedById": "0051t000001pGyuAAE",
+      "LastModifiedDate": "2019-05-02T11:27:36Z",
+      "OwnerId": "005B0000005iVeGIAU",
+      "CreatedById": "005B0000005iVeGIAU",
       "ChangeEventHeader": {
-        "isTransactionEnd": true,
-        "commitNumber": 184824347392,
-        "commitUser": "0051t000001pGyuAAE",
+        "commitNumber": 10426208028536,
+        "commitUser": "005B0000005iVeGIAU",
         "sequenceNumber": 1,
         "entityName": "Employee__c",
         "changeType": "CREATE",
-        "changeOrigin": "com/salesforce/api/soap/45.0;client=SfdcInternalAPI/",
-        "transactionKey": "001eb1e9-d14a-6cc0-617e-22108b39f4a5",
-        "commitTimestamp": 1551995912000,
+        "changeOrigin": "com/salesforce/api/soap/46.0;client=SfdcInternalAPI/",
+        "transactionKey": "000267d5-1ab2-e18a-f726-b8849994a99a",
+        "commitTimestamp": 1556796456000,
         "recordIds": [
-          "a011t00000EEKg3AAH"
+          "a00B000000AVWaZIAX"
         ]
       },
-      "CreatedDate": "2019-03-07T21:58:32Z",
+      "CreatedDate": "2019-05-02T11:27:36Z",
       "First_Name__c": "Marc",
-      "LastModifiedById": "0051t000001pGyuAAE",
+      "LastModifiedById": "005B0000005iVeGIAU",
       "Tenure__c": 20,
-      "Name": "EN-0090",
+      "Name": "EN-0003",
       "Last_Name__c": "Benioff"
     },
     "event": {
-      "replayId": 34754
+      "replayId": 32872942
     }
   },
   "channel": "/data/Employee__ChangeEvent"
@@ -245,34 +244,33 @@ CometD (A messaging library that enables listening to events through long pollin
 ```
 {
   "data": {
-    "schema": "YBKiola5arQ6oq4jvUZpqQ",
+    "schema": "fl8pv4oUvtbyFAwJQO2NAQ",
     "payload": {
-      "LastModifiedDate": "2019-03-07T21:58:32Z",
-      "OwnerId": "0051t000001pGyuAAE",
-      "CreatedById": "0051t000001pGyuAAE",
+      "LastModifiedDate": "2019-05-02T11:27:36Z",
+      "OwnerId": "005B0000005iVeGIAU",
+      "CreatedById": "005B0000005iVeGIAU",
       "ChangeEventHeader": {
-        "isTransactionEnd": true,
-        "commitNumber": 184824347392,
-        "commitUser": "0051t000001pGyuAAE",
+        "commitNumber": 10426208028536,
+        "commitUser": "005B0000005iVeGIAU",
         "sequenceNumber": 1,
         "entityName": "Employee__c",
         "changeType": "CREATE",
-        "changeOrigin": "com/salesforce/api/soap/45.0;client=SfdcInternalAPI/",
-        "transactionKey": "001eb1e9-d14a-6cc0-617e-22108b39f4a5",
-        "commitTimestamp": 1551995912000,
+        "changeOrigin": "com/salesforce/api/soap/46.0;client=SfdcInternalAPI/",
+        "transactionKey": "000267d5-1ab2-e18a-f726-b8849994a99a",
+        "commitTimestamp": 1556796456000,
         "recordIds": [
-          "a011t00000EEKg3AAH"
+          "a00B000000AVWaZIAX"
         ]
       },
-      "CreatedDate": "2019-03-07T21:58:32Z",
+      "CreatedDate": "2019-05-02T11:27:36Z",
       "First_Name__c": "Marc",
-      "LastModifiedById": "0051t000001pGyuAAE",
+      "LastModifiedById": "005B0000005iVeGIAU",
       "Tenure__c": 20,
-      "Name": "EN-0090",
+      "Name": "EN-0003",
       "Last_Name__c": "Benioff"
     },
     "event": {
-      "replayId": 34754
+      "replayId": 32872942
     }
   },
   "channel": "/data/Employee__ChangeEvent"
@@ -287,29 +285,28 @@ CometD (A messaging library that enables listening to events through long pollin
 ```
 {
   "data": {
-    "schema": "YBKiola5arQ6oq4jvUZpqQ",
+    "schema": "fl8pv4oUvtbyFAwJQO2NAQ",
     "payload": {
-      "LastModifiedDate": "2019-03-07T21:59:41Z",
+      "LastModifiedDate": "2019-05-02T11:29:00Z",
       "ChangeEventHeader": {
-        "isTransactionEnd": true,
-        "commitNumber": 184824755535,
-        "commitUser": "0051t000001pGyuAAE",
+        "commitNumber": 10426208532295,
+        "commitUser": "005B0000005iVeGIAU",
         "sequenceNumber": 1,
         "entityName": "Employee__c",
         "changeType": "UPDATE",
-        "changeOrigin": "com/salesforce/api/soap/45.0;client=SfdcInternalAPI/",
-        "transactionKey": "001eb1f9-c921-2fd7-bdd4-19fad459c18f",
-        "commitTimestamp": 1551995981000,
+        "changeOrigin": "com/salesforce/api/soap/46.0;client=SfdcInternalAPI/",
+        "transactionKey": "000267e8-ba20-f483-b6b9-5da9bb5c6c64",
+        "commitTimestamp": 1556796540000,
         "recordIds": [
-          "a011t00000EEKg3AAH"
+          "a00B000000AVWaZIAX"
         ]
       },
-      "First_Name__c": "Marc2",
+      "First_Name__c": "Marc 2",
       "Tenure__c": 22,
-      "Last_Name__c": "Benioff2"
+      "Last_Name__c": "Benioff 2"
     },
     "event": {
-      "replayId": 34755
+      "replayId": 32873029
     }
   },
   "channel": "/data/Employee__ChangeEvent"
@@ -324,25 +321,24 @@ CometD (A messaging library that enables listening to events through long pollin
 ```
 {
   "data": {
-    "schema": "YBKiola5arQ6oq4jvUZpqQ",
+    "schema": "fl8pv4oUvtbyFAwJQO2NAQ",
     "payload": {
       "ChangeEventHeader": {
-        "isTransactionEnd": true,
-        "commitNumber": 184825371580,
-        "commitUser": "0051t000001pGyuAAE",
+        "commitNumber": 10426208770402,
+        "commitUser": "005B0000005iVeGIAU",
         "sequenceNumber": 1,
         "entityName": "Employee__c",
         "changeType": "DELETE",
-        "changeOrigin": "com/salesforce/api/soap/45.0;client=SfdcInternalAPI/",
-        "transactionKey": "001eb20b-9af7-899e-b710-2f0a0e470043",
-        "commitTimestamp": 1551996058000,
+        "changeOrigin": "com/salesforce/api/soap/46.0;client=SfdcInternalAPI/",
+        "transactionKey": "000267f1-31a6-e4e7-24e3-45f54c53a5d0",
+        "commitTimestamp": 1556796576000,
         "recordIds": [
-          "a011t00000EEKg3AAH"
+          "a00B000000AVWaZIAX"
         ]
       }
     },
     "event": {
-      "replayId": 34768
+      "replayId": 32873116
     }
   },
   "channel": "/data/Employee__ChangeEvent"
@@ -361,36 +357,38 @@ Deleted record in Recycle Bin
 <img src="supportedimages/RestoredEmployeeRecord.png"/>
 
 ```
-{  
-	"schema":"YBKiola5arQ6oq4jvUZpqQ",
-	"payload":{
-		"ChangeEventHeader":{
-			"isTransactionEnd":true,
-			"commitNumber":145935131858,
-			"commitUser":"0051t000001pGyuAAE",
-			"sequenceNumber":1,
-			"entityName":"Employee__c",
-			"changeType":"UNDELETE",
-			"changeOrigin":"",
-			"transactionKey":"000a5f2d-acde-66fe-94f2-142c3479e6d8",
-			"commitTimestamp":1546275440000,
-			"recordIds":[  
-				"a011t00000AVBK2AAP"
-			]
-		},
-		"Name":"EN-0002",
-		"First_Name__c":"Mr. Marc",
-		"Last_Name__c":"Benioff",
-		"Tenure__c":18,
-		"OwnerId":"0051t000001pGyuAAE",
-		"CreatedById":"0051t000001pGyuAAE",
-		"CreatedDate":"2018-12-31T16:52:28Z",
-		"LastModifiedById":"0051t000001pGyuAAE",
-		"LastModifiedDate":"2018-12-31T16:57:20Z"
-	},
-	"event":{  
-		"replayId":8898
-	}
+{
+  "data": {
+    "schema": "fl8pv4oUvtbyFAwJQO2NAQ",
+    "payload": {
+      "LastModifiedDate": "2019-05-02T11:27:36Z",
+      "OwnerId": "005B0000005iVeGIAU",
+      "CreatedById": "005B0000005iVeGIAU",
+      "ChangeEventHeader": {
+        "commitNumber": 10426208028536,
+        "commitUser": "005B0000005iVeGIAU",
+        "sequenceNumber": 1,
+        "entityName": "Employee__c",
+        "changeType": "UNDELETE",
+        "changeOrigin": "com/salesforce/api/soap/46.0;client=SfdcInternalAPI/",
+        "transactionKey": "000267d5-1ab2-e18a-f726-b8849994a99a",
+        "commitTimestamp": 1556796456000,
+        "recordIds": [
+          "a00B000000AVWaZIAX"
+        ]
+      },
+      "CreatedDate": "2019-05-02T11:27:36Z",
+      "First_Name__c": "Marc",
+      "LastModifiedById": "005B0000005iVeGIAU",
+      "Tenure__c": 20,
+      "Name": "EN-0003",
+      "Last_Name__c": "Benioff"
+    },
+    "event": {
+      "replayId": 32872117
+    }
+  },
+  "channel": "/data/Employee__ChangeEvent"
 }
 ```
 </li>
