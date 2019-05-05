@@ -24,6 +24,7 @@ trigger EmployeeChangeEventTrigger on Employee__ChangeEvent (after insert) {
         System.Debug('>>Employee FirstName<<'+event.First_Name__c);
         System.Debug('>>Employee LastName<<'+event.Last_Name__c);
         System.Debug('>>Employee Tenure<<'+event.Tenure__c);
+        System.Debug('>>Employee Comments<<'+event.Comments__c);
     }
 
     /*

@@ -153,57 +153,35 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Comments__c</fullName>
+        <fullName>Statement_Date__c</fullName>
         <externalId>false</externalId>
-        <label>Comments</label>
-        <length>32768</length>
-        <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>First_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>First Name</label>
-        <length>255</length>
+        <label>Statement Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Date</type>
     </fields>
     <fields>
-        <fullName>Last_Name__c</fullName>
+        <fullName>Total_Price__c</fullName>
         <externalId>false</externalId>
-        <label>Last Name</label>
-        <length>255</length>
-        <required>false</required>
+        <label>Total Price</label>
+        <summarizedField>Invoice_Line_Item__c.Unit_Price__c</summarizedField>
+        <summaryForeignKey>Invoice_Line_Item__c.Invoice__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Summary</type>
     </fields>
-    <fields>
-        <fullName>Tenure__c</fullName>
-        <externalId>false</externalId>
-        <label>Tenure</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <label>Employee</label>
+    <label>Invoice</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <displayFormat>EN-{0000}</displayFormat>
-        <label>Employee Number</label>
+        <displayFormat>INV-{0000}</displayFormat>
+        <label>Invoice Number</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Employees</pluralLabel>
+    <pluralLabel>Invoices</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

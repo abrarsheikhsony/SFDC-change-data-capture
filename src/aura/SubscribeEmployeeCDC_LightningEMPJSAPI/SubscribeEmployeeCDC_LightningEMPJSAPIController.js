@@ -61,7 +61,7 @@
                 //"message": "Change Event Received: "+employeeName+" "+entityName+" "+changeType+" "+changeOrigin+" "+transactionKey+" "+sequenceNumber+" "+isTransactionEnd+" "+commitTimestamp+" "+commitUser+" "+commitNumber,
                 "title": entityName+" Change Event",
                 "message": entityName+" record received: "+"Change Type: "+changeType+" ,ID: "+employeeRecordID+" ,First Name: "+First_Name__c+" ,Last Name: "+Last_Name__c+" ,Tenure: "+Tenure__c+" ,at: "+LastModifiedDate,
-                "type": "warning",
+                "type": "success",
                 "mode": "sticky"
             });
             toastEvent.fire();

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformEventChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channelMembers>
+        <selectedEntity>AccountChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelMembers>
+        <selectedEntity>ContactChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelMembers>
+        <selectedEntity>LeadChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelMembers>
+        <selectedEntity>OpportunityChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelMembers>
+        <selectedEntity>TaskChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelType>data</channelType>
+    <label>ChangeEvents</label>
+</PlatformEventChannel>

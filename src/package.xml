@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
@@ -19,11 +18,23 @@
     </types>
     <types>
         <members>Employee__c</members>
+        <members>Invoice__c</members>
+        <members>Invoice_Line_Item__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
     </types>
     <types>
         <members>*</members>
         <name>StaticResource</name>
     </types>
-    <version>45.0</version>
+    <types>
+        <members>ChangeEvents</members>
+        <members>SAPEvents__chn</members>
+        <members>OracleEvents__chn</members>
+        <name>PlatformEventChannel</name>
+    </types>
+    <version>46.0</version>
 </Package>

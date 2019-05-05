@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformEventChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channelMembers>
+        <selectedEntity>AccountChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelMembers>
+        <selectedEntity>LeadChangeEvent</selectedEntity>
+    </channelMembers>
+    <channelType>data</channelType>
+    <label>Custom Channel for SAP Events</label>
+</PlatformEventChannel>
