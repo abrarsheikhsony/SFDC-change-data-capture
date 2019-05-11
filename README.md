@@ -487,6 +487,10 @@ attribute to it.</li>
 
 <li><a href="https://www.salesforce.com/video/1778488/" target="_blank" alt="Salesforce Video: Why Subscribing To Change Data Capture Event Is Better Than Polling For Data">Salesforce Video: Why Subscribing To Change Data Capture Event Is Better Than Polling For Data</a></li>
 
+<li><a href="https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/code_sample_java_client_intro.htm" target="_blank" alt="Subscribe using Java (EMP Connector of CometD library)">Subscribe using Java (EMP Connector of CometD library)</a></li>
+
+<li><a href="https://blog.heroku.com/reactive-programming-salesforce-data" target="_blank" alt="Subscribe using Nod.js">Subscribe using Nod.js</a></li>
+
 <li><a href="https://blog.texei.com/get-live-notifications-when-the-record-youre-viewing-gets-modified-58c71cfddc0b" target="_blank" alt="Blog: Get live notifications when the record you’re viewing gets modified">Blog: Get live notifications when the record you’re viewing gets modified</a></li>
 
 <li><a href="http://sfdcfacts.com/platform/change-data-capture-events-in-salesforce-keep-your-ui-updated-with-latest-data/" target="_blank" alt="Blog: Keep your UI updated with latest data">Blog: Keep your UI updated with latest data</a></li>
