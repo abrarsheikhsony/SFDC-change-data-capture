@@ -468,6 +468,8 @@ attribute to it.</li>
 
 <li><a href="https://developer.salesforce.com/blogs/2018/08/what-is-change-data-capture.html" target="_blank" alt="Salesforce Blog: What is Change Data Capture?">Salesforce Blog: What is Change Data Capture?</a></li>
 
+<li><a href="https://developer.salesforce.com/events/webinars/change-data-capture" target="_blank" alt="Salesforce Webinar: Replicate Salesforce Data in Real-Time with Change Data Capture">Salesforce Webinar: Replicate Salesforce Data in Real-Time with Change Data Capture</a></li>
+
 <li><a href="https://www.youtube.com/watch?v=JEQZhZYZYPg" target="_blank" alt="YouTube: Change Data Capture -Not Your Average Data Synchronization">YouTube: Change Data Capture -Not Your Average Data Synchronization</a></li>
 
 <li><a href="https://www.youtube.com/watch?v=v_hQyUZzLsA" target="_blank" alt="YouTube: Change Data Capture: Data Synchronization in the Cloud">YouTube: Change Data Capture: Data Synchronization in the Cloud</a></li>
