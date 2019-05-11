@@ -222,7 +222,7 @@ Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API
 <br/><b>Standard Change Event Channels (ChangeEvents.platformEventChannel)</b>
 <img src="supportedimages/ChangeEvents.platformEventChannel.png"/>
 <br/><b>Custom Change Event Channels <br/>
-Note: You can create a custom channel with Metadata API ONLY. You can’t create or view custom channels in Setup in the Change Data Capture page.</b>
+Note: As of Summer '19 release, you can create a custom channel with Metadata API. You can’t create or view custom channels in Setup in the Change Data Capture page.</b>
 <br/>SAPEvents__chn.platformEventChannel
 <img src="supportedimages/SAPEvents__chn.platformEventChannel.png"/>
 <br/>OracleEvents__chn.platformEventChannel
