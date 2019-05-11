@@ -218,8 +218,15 @@ View All Users for User change events
 
 ## Change Event Objects in Metadata API
 Developers can use the <b>PlatformEventChannel</b> metadata type in Metadata API to retrieve and deploy Change Data Capture objects.
-<img src="supportedimages/PlatformEventChannel_In_PackageXML.png"/>
-<img src="supportedimages/PlatformEventChannel_MetadataType.png"/>
+
+Standard Change Event Channels
+<img src="supportedimages/ChangeEvents.platformEventChannel.png"/>
+Custom Change Event Channels
+<b>Note:</b> You can create a custom channel with Metadata API ONLY. You can’t create or view custom channels in Setup in the Change Data Capture page.
+<img src="supportedimages/SAPEvents__chn.platformEventChannel.png"/>
+<img src="supportedimages/OracleEvents__chn.platformEventChannel.png"/>
+Package.xml
+<img src="supportedimages/PackageXML.png"/>
 
 ## Fields in JSON & Apex Change Event Body
 <a href="https://developer.salesforce.com/docs/atlas.en-us.218.0.change_data_capture.meta/change_data_capture/cdc_event_fields_body.htm" target="_blank" alt="Change Event Body Fields">Change Event Body Fields</a>
