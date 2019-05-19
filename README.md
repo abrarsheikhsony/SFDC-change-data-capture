@@ -469,6 +469,8 @@ attribute to it.</li>
 ## Useful Resources
 <ul>
 
+<li><a href="https://www.londonscalling.net/sessions/change-data-capture-cdc-keep-your-external-data-synchronized-and-up-to-date-in-real-time/" target="_blank" alt="My Change Data Capture session at Salesforce London's Calling 2019">My Change Data Capture session at Salesforce London's Calling 2019</a></li>
+
 <li><a href="https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F93A000000HTvs" target="_blank" alt="Partner Community Group: Change Data Capture">Partner Community Group: Change Data Capture</a></li>
 
 <li><a href="https://trailhead.salesforce.com/content/learn/modules/change-data-capture" target="_blank" alt="Trailhead: Change Data Capture Basics">Trailhead: Change Data Capture Basics</a></li>
