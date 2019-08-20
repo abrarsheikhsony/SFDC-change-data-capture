@@ -4,6 +4,12 @@ This GitHub Repo explains specifically for Change Data Capture (CDC). If you are
 
 ## Introduction
 <ul>
+<li><a href="https://releasenotes.docs.salesforce.com/en-us/winter20/release-notes/rn_messaging_change_data_capture_section.htm" target="_blank" alt="Winter '20 release features for Change Data Capture (CDC)">Winter '20 release features for Change Data Capture (CDC)</a></li>
+
+<li><a href="https://releasenotes.docs.salesforce.com/en-us/winter20/release-notes/rn_forcecom_dpp_cdc.htm" target="_blank" alt="Winter '20: Receive Notifications for Consent Record Changes">Winter '20: Receive Notifications for Consent Record Changes</a></li>
+
+<li><a href="https://releasenotes.docs.salesforce.com/en-us/winter20/release-notes/rn_messaging_platform_events_section.htm" target="_blank" alt="Winter '20 release features for Platform Events">Winter '20 release features for Platform Events</a></li>
+
 <li><a href="https://releasenotes.docs.salesforce.com/en-us/summer19/release-notes/rn_messaging_change_data_capture_section.htm" target="_blank" alt="Summer '19 (API version 46.0) release features for Change Data Capture (CDC)">Summer '19 (API version 46.0) release features for Change Data Capture (CDC)</a></li>
 
 <li>Starting with <a href="https://releasenotes.docs.salesforce.com/en-us/spring19/release-notes/rn_data_change_events.htm" target="_blank" alt="Spring '19 (API version 45.0) release">Spring '19 (API version 45.0) release</a>, Change Data Capture (CDC) is Generally Available (GA).</li>
