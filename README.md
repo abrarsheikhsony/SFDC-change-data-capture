@@ -475,7 +475,11 @@ attribute to it.</li>
 ## Useful Resources
 <ul>
 
-<li><a href="https://www.londonscalling.net/sessions/change-data-capture-cdc-keep-your-external-data-synchronized-and-up-to-date-in-real-time/" target="_blank" alt="My Change Data Capture session at Salesforce London's Calling 2019">My Change Data Capture session at Salesforce London's Calling 2019</a></li>
+<li><a href="https://www.londonscalling.net/sessions/change-data-capture-cdc-keep-your-external-data-synchronized-and-up-to-date-in-real-time/" target="_blank" alt="Salesforce London's Calling 08-March-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time">Salesforce London's Calling 08-March-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time</a></li>
+
+<li><a href="https://www.salesforce.com/uk/events/london/sessions/" target="_blank" alt="Salesforce World Tour London 23-May-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time">Salesforce World Tour London 23-May-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time</a></li>
+
+<li><a href="https://www.mobilecaddy.net/london-salesforce-dug-august-2019-change-data-capture-chatter/" target="_blank" alt="Salesforce World Tour London 21-August-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time">Salesforce World Tour London 21-August-2019: Change Data Capture - Keep Data Syncronized and Up To Date in Real Time</a></li>
 
 <li><a href="https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F93A000000HTvs" target="_blank" alt="Partner Community Group: Change Data Capture">Success Community Group: Change Data Capture</a></li>
 
